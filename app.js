@@ -15,7 +15,6 @@
 //     console.log('Упс, кажется, вы ошиблись')
 // }
 
-
 // Задание 2: 
 
 // let x;
@@ -60,23 +59,15 @@
 
 // Задание 6:
 
-let arr = [12, 2, 2, 2, 2, 12, 3, 4, 3]
+// let arr = [12, 2, 2, 2, 2, 12, 3, 4, 3]
 
-for (let i = 0; i < arr.length; i++) {
-    if (arr.indexOf(arr[i]) !== i) {
-        console.log(true)
-    } else {
-        console.log(false)
-    }
-}
-
-// let duplicates = arr.filter((item, index, array) => {
-//     if (array.indexOf(item) === index) {
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr.indexOf(arr[i]) !== i) {
 //         console.log(true)
 //     } else {
 //         console.log(false)
 //     }
-// })
+// }
 
 // Задание 7:
 
