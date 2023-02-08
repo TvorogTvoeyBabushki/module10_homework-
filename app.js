@@ -1,18 +1,15 @@
 // Задание 1: 
 
-// let numb;
-// let n = 2;
+// let numb = '1';
 
-// if (isNaN(numb)) {
+// if (isNaN(numb) || typeof numb !== 'number') {
 //     console.log('Упс, кажется, вы ошиблись')
-// } else if (typeof numb === 'number') {
-//     if (numb % n != 0) {
+// } else {
+//     if (numb % 2 != 0) {
 //         console.log('нечетное число')
 //     } else {
 //         console.log('четное число')
 //     }
-// } else {
-//     console.log('Упс, кажется, вы ошиблись')
 // }
 
 // Задание 2: 
@@ -59,7 +56,33 @@
 
 // Задание 6:
 
-// let arr = [12, 2, 2, 2, 2, 12, 3, 4, 3]
+// let arr = [3, 3, 3, 3, 4]
+// let result = true
+
+// for(let i = 0; i < arr.length - 1; i++) {
+//     if (arr[i] !== arr[i + 1]) {
+//         result = false
+//         break
+//     }
+// }
+// console.log(`Массив состоит из одинаковых значений: ${result}`)
+
+/////////////////////////////// Вывод уникальных значений в массиве
+
+// let arr = [1, 2, 3, 1, 4, 3, 5]
+// let result = []
+
+// for(let element of arr) {
+//     if (!result.includes(element)) {
+//         result.push(element)
+//     }
+// }
+
+// console.log(result)
+
+/////////////////////////////// Повторяющиеся элементы в массиве
+
+// let arr = [1, 2, 3, 1, 4, 3, 5]
 
 // for (let i = 0; i < arr.length; i++) {
 //     if (arr.indexOf(arr[i]) !== i) {
